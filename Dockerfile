@@ -1,6 +1,6 @@
 FROM docker:17.05.0-ce-git
 
-ENV CLOUD_SDK_VERSION 206.0.0
+ENV CLOUD_SDK_VERSION 219.0.1
 
 ENV PATH /google-cloud-sdk/bin:$PATH
 RUN apk update && apk upgrade && \
